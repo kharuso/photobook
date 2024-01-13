@@ -1,0 +1,39 @@
+.about__section {
+    height: 100vh;
+    background: linear-gradient(var(--color-bg-2), var(--color-bg-4));
+}
+
+.about__container {
+    padding-top: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+}
+
+.section__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 765px) {
+
+    .about__section {
+        background: var(--color-bg-2);
+    }
+
+    .about__container {
+        display: flex;
+        flex-direction: column-reverse;
+        place-items: center;
+        gap: 7rem;
+        padding-top: 2rem;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 420px) {}
