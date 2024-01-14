@@ -1,6 +1,6 @@
 .about__section {
     height: 100vh;
-    background: linear-gradient(var(--color-bg-2), var(--color-bg-4));
+    background: linear-gradient(var(--color-bg-4), var(--color-bg-2));
 }
 
 .about__container {

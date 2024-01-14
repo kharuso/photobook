@@ -1,4 +1,47 @@
 .gallery__section {
-    height: 100vh;
     background: linear-gradient(var(--color-bg-2), var(--color-bg-4));
+    height: 120vh;
+}
+
+.gallery__container{
+    padding-top: 4rem
+}
+
+.gallery__head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.swiper__container{
+    height: 75vh;
+    width: 65%;
+    border: 1rem solid var(--color-bg-1);
+    margin: 2rem auto;
+    background: var(--color-bg-1);
+}
+
+.swiper__image{
+    object-fit: cover;
+    filter:  saturate(0.3);
+}
+
+.swiper__image:hover{
+    filter: saturate(1);
+}
+
+@media only screen and (max-width: 765px){
+    .gallery__section{
+        height: 70vh;
+    }
+
+    .swiper__container{
+        height: 40vh;
+        width: 90%;
+        margin: 6rem;
+    }
+
+    .swiper__image{
+        object-fit: cover;
+        width: 100%;
+    }
 }

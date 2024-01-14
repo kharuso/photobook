@@ -20,7 +20,7 @@ const Nav = () => {
             <li><a href="#" className="nav__link" onClick={()=>setIsNavShowing(prev => !prev)}>home</a></li>
             <li><a href="#about" className="nav__link" onClick={()=>setIsNavShowing(prev => !prev)}>about</a></li>
             <li><a href="#gallery" className="nav__link" onClick={()=>setIsNavShowing(prev => !prev)}>gallery</a></li>
-            <li><a href="#exibition" className="nav__link" onClick={()=>setIsNavShowing(prev => !prev)}>exhibition</a></li>
+            <li><a href="#exhibition" className="nav__link" onClick={()=>setIsNavShowing(prev => !prev)}>exhibition</a></li>
         </ul>
         <ul className="socials">
             <li><a href="#" className="social__link"><CiLinkedin /></a></li>
